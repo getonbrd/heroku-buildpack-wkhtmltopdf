@@ -13,7 +13,7 @@ echo "Rebuilding"
 if [ -f "$ENV_DIR/WKHTMLTOPDF_URL" ]; then
   DOWNLOAD_URL=$(cat $ENV_DIR/WKHTMLTOPDF_URL)
 else
-  DOWNLOAD_URL="https://github.com/wkhtmltopdf/wkhtmltopdf/archive/0.12.5.tar.gz"
+  DOWNLOAD_URL="https://github.com/wkhtmltopdf/wkhtmltopdf/archive/0.12.6.tar.gz"
 fi
 
 PACKAGE=${DOWNLOAD_URL##*/}
